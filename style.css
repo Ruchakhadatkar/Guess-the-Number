@@ -43,7 +43,7 @@ input {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   margin-top: 6px;
 }
 
@@ -56,6 +56,18 @@ button {
   font-size: 1rem;
   width: 7rem;
 }
-.startGame{
+
+button :disabled {
   cursor: not-allowed;
+}
+
+.result {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.guess {
+  font-size: 17px;
+  margin: 36px;
+  margin-top: 8px;
 }
